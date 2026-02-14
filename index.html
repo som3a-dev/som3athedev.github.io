@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Happy+Monkey&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <title>Omar Eltayeb</title>
+</head>
+<body>
+    <div class="menu">
+        <h2>Omar Eltayeb</h2>
+        <div class="navigation">
+            <button type="button" class="navigate-button menu-navigate-button" onClick="smoothScrollToElement('about');"><h3><span class="nav-index">0b1.</span> About me</h3></button>
+            <button type="button" class="navigate-button menu-navigate-button" onClick="smoothScrollToElement('section-skills');"><h3><span class="nav-index">0b10.</span> Portfolio</h3></button>
+            <button type="button" class="navigate-button menu-navigate-button" onClick="smoothScrollToElement('contact');"><h3><span class="nav-index">0b11.</span> Contact</h3></button>
+        </div>
+    </div>
+
+    <section class="about">
+        <div class="intro">
+            <div>
+                <h1>Hello, I'm Omar.</h1>
+                <h1 class="half-alpha">I'll develop your software.</h1>
+
+                <div class="more-about-me">
+                    <p>A software developer with experience in desktop development, game/engine developement, web development and <a href="">more.</a></p>
+                </div>
+                <button type="button" class="navigate-button more-button" onClick="smoothScrollToElement('section-skills');">More</button>
+            </div>
+
+            <div class="job-code">
+                <img class="job-code-img" src="code2.png" alt="Pseudocode demonstrating what happens to your gig if im not on it.">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-skills">
+        <div class="skills">
+            <h1>I have experience with</h1>
+
+            <div class="skills-cards">
+
+                <div class="skills-card">
+                    <div class="skills-card-header">
+                        <h2>Frameworks</h2>
+                        <h2>& Engines</h2>
+                    </div>
+
+                    <div class="skills-card-content">
+                        <h3>Qt</h3>
+                        <h3>Godot</h3>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <div class="skills-card-header">
+                        <h2>Languages</h2>
+                    </div>
+
+                    <div class="skills-card-content">
+                        <h3>C++</h3>
+                        <h3>C</h3>
+                        <h3>Python</h3>
+                        <h3>HTML/CSS</h3>
+                        <h3>C#</h3>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <div class="skills-card-header">
+                        <h2>Libraries</h2>
+                    </div>
+
+                    <div class="skills-card-content">
+                        <h3>Win32 API</h3>
+                        <h3>SDL</h3>
+                        <h3>SFML</h3>
+                        <h3>Raylib</h3>
+                        <h3>Dear ImGui</h3>
+                        <h3>Nuklear</h3>
+                    </div>
+                </div>
+            </div>
+
+            <h1>Some of my projects</h1>
+
+            <div class="project-screenshots">
+                <div class="project-screenshot">
+                    <img src="hidden-gem.PNG" alt="">
+                    <div class="project-screenshot-caption">
+                        <p>Hidden gem, a 2D game with a custom engine & map editor, in early development</p>
+                        <a href="https://github.com/som3a-dev/hidden-gem" target="_blank">Repo</a>
+                    </div>
+                </div>
+
+                <div class="project-screenshot">
+                    <img src="eelogo.PNG" alt="">
+                    <div class="project-screenshot-caption">
+                        <p>EagleEye client, an anticheat client for games, developed as part of the Qimma 2025 hackathon</p>
+                        <a href="https://github.com/ShehabAhmed-Gui/eagle-eye-client" target="_blank">Repo</a>
+                    </div>
+                </div>
+
+                <div class="project-screenshot">
+                    <img src="chip-8.PNG" alt="">
+                    <div class="project-screenshot-caption">
+                        <p>Win-8, a COSMAC CHIP-8 Emulator for Windows, Written in Win32 api</p>
+                        <a href="https://github.com/som3a-dev/hidden-gem" target="_blank">Repo</a>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="navigate-button find-me" onClick="smoothScrollToElement('contact');">Where to find me?</button>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h1>Contact me</h1> 
+        <div class="contact-info">
+            <div>
+                <h2>Gmail: omar.eltayeb54@gmail.com</h2>
+                <h2>Discord: som3athedev</h2>
+            </div>
+            <div class="socials">
+                <img src="github-logos/SVG/GitHub_Invertocat_Black.svg" alt="">
+                <img src="youtube-icon.svg">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

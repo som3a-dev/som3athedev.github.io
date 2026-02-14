@@ -1,0 +1,263 @@
+
+body {
+    background-color: #0D1B2C;
+    color: #F0EBD8;
+    font-family: Funnel Display; /* TODO: Find backup fonts */
+
+    margin: 0px;
+    display: flow-root;
+}
+
+section {
+/*    min-height: 80vh;*/
+    min-height: 100vh;
+}
+
+a {
+    color: #607A9f;
+    text-underline-offset: 4px;
+    text-decoration-color: #748CAB;
+    text-decoration-thickness: 2px;
+}
+
+a:hover {
+    color: #748CAB;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.navigate-button {
+    background-color: inherit;
+    border: 2px solid #607A9f;
+    height: fit-content;
+    color:#F0EBD8;
+    font-family: inherit;
+}
+
+.navigate-button h3 {
+    margin: 2px;
+}
+
+.navigate-button:hover {
+    background-color: #607A9f;
+}
+
+.menu-navigate-button {
+    font-size: 16px;
+}
+
+.more-button {
+    font-size: 20px;
+}
+
+.find-me {
+    font-size: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 10px;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 170px;
+}
+
+.contact-info {
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+    width: 700px;
+    padding: 5px 10px;
+
+    background-color: #313d50;
+    color: #F0EBD8;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    padding: 10px;
+    display: flex;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+
+    z-index: 100;
+
+    background-color: #0F2034;
+}
+
+.menu h1, .menu h2, .menu h3, .menu h4, .menu h5, .menu h6 {
+    text-shadow: 0px 0px 10px black;
+}
+
+.navigation {
+    flex: 1;
+    display: flex;
+    padding-right: 100px;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-index {
+    color: #748CAB;
+}
+
+.about {
+    padding-top: 100px;
+    margin-left: 256px;
+    gap: 250px;
+}
+
+.intro {
+    margin-top: 140px;
+
+    display: flex;
+}
+
+.skills {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 100px;
+}
+
+.skills h1 {
+    font-size: 60px;
+}
+
+.skills-card {
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    min-width: 170px;
+}
+
+.skills-card-header {
+    background-color: #506684;
+    min-height: 50px;
+    line-height: 50px;
+}
+
+.skills-card-header h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.skills-card-content {
+    margin-top: 0px;
+    padding-top: 10px;
+    background-color: #313d50;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skills-card-content h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #DDDDFF;
+    text-shadow: 0px 0px 5px black;
+}
+
+.skills-cards {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-screenshots {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-screenshot {
+    background-color: #313d50;
+    display: inline-block;
+    width: 400px;
+}
+
+.project-screenshot p {
+    font-size: medium;
+    word-wrap: break-word;
+}
+
+.project-screenshot img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    height: 225px;
+}
+
+.project-screenshot-caption {
+    padding: 4px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: greenyellow;
+    text-underline-offset: 3px;
+}
+
+/*.skills > :nth-child(2) { margin-left: 20px; }
+.skills > :nth-child(3) { margin-left: 40px; }*/
+
+.skill-list {
+    color: lightblue;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    text-shadow: 2px 2px 10px black;
+}
+
+p {
+    font-size: 20px;
+
+    text-shadow: 0px 0px 5px black;
+}
+
+.more-about-me {
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+.half-alpha {
+    opacity: 0.7; 
+}
+
+.job-code {
+    margin-left: 60px;
+}
+
+.job-code-img {
+    width: 500px;
+    border: 1px solid grey;
+}
